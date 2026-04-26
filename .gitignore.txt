@@ -1,0 +1,10 @@
+# Fichiers Arduino temporaires
+*.tmp
+*.bak
+
+# Logs
+*.log
+
+# Fichiers système Windows
+Thumbs.db
+desktop.ini
