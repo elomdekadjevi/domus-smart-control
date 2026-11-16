@@ -1,0 +1,104 @@
+# &#x20;Domus Smart Control
+
+### An ESP32-Based Smart Home Automation System
+
+Domus Smart Control is an IoT-based home automation project built around the ESP32 microcontroller. It aims to improve home comfort, security and accessibility through connected devices, automated actions and remote control via a web interface.
+
+The system combines embedded electronics, wireless communication and web technologies to create an interactive smart home environment.
+
+## &#x20;Features
+
+- **RFID Access Control:** Identification and access management using RFID cards.
+- **Automatic Door Control:** Servo motor-based door opening and closing.
+- **Smart Lighting:** RGB LED control with manual and automatic operating modes.
+- **Environmental Sensing:** Sensor-based monitoring of the surrounding environment.
+- **Wireless Communication:** ESP32 Wi-Fi connectivity.
+- **Web Interface:** Remote interaction with the smart home system through a browser.
+
+## Technologies & Components
+
+### Hardware
+
+- ESP32 DevKit V1
+- RFID-RC522 module
+- Servo motors
+- RGB LED
+- LDR light sensor
+- Ultrasonic sensor
+
+### Software
+
+- Arduino IDE
+- C/C++
+- ESP32 Arduino Core
+- HTML / CSS / JavaScript
+- Wi-Fi communication
+
+## System Architecture
+
+The ESP32 acts as the central controller of the system.
+
+It receives information from connected sensors and modules, processes the data and controls the corresponding actuators.
+
+The web interface provides a user-friendly way to interact with the system through Wi-Fi.
+
+## &#x20;Project Structure
+
+```text
+domus-smart-control/
+│
+├── code/
+│   └── ESP32 source code
+│
+├── images/
+│   └── Project photos and illustrations
+│
+└── README.md
+```
+
+## &#x20;Installation & Setup
+
+1. Install the Arduino IDE.
+2. Configure the ESP32 board support package.
+3. Connect the ESP32 to your computer.
+4. Install the required libraries.
+5. Open the project source code.
+6. Configure your Wi-Fi settings.
+7. Upload the firmware to the ESP32.
+8. Connect to the ESP32 network and access the web interface.
+
+**Note:** Hardware connections, library dependencies and network configuration must match the source code and actual prototype.
+
+## 📸 Project Preview
+
+Project photographs and hardware implementation are available in the `images/` directory.
+
+## 🎯 Project Objectives
+
+- Explore practical IoT development.
+- Understand communication between sensors, microcontrollers and actuators.
+- Implement embedded web-based control.
+- Apply automation principles to smart home environments.
+- Develop practical skills in hardware-software integration.
+
+## &#x20;Future Improvements
+
+- Add real-time monitoring and notifications.
+- Improve access control and authentication.
+- Expand sensor integration.
+- Enhance the web interface.
+- Implement energy monitoring and intelligent automation.
+
+## &#x20;Author
+
+**Elom DEKADJEVI**
+
+Embedded Systems & IoT Engineering Student
+Institut de Formation et de Recherche en Informatique (IFRI)
+University of Abomey-Calavi, Benin
+
+GitHub: [@elomdekadjevi](https://github.com/elomdekadjevi)
+
+---
+
+*Built with curiosity, electronics and a passion for IoT.*
